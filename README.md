@@ -107,9 +107,9 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
-Developed by Dinakar Nayak N. For inquiries, please contact me via [dinakarnayak4248@gmail.com](mailto:dinakarnayak4248@gmail.com).
+Developed by Dinakar Nayak N. For inquiries, please contact me via .
 
-[LinkedIn: Dinakar Nayak N](https://www.linkedin.com/in/dinakar-nayak-n-125762232/)
+[LinkedIn: Dinakar Nayak N]
 
 Thank you for using **LinguaSpeak: NLP Speech Translator**! We hope you find it helpful and easy to use.
 ```
