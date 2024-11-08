@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinguaSpeak: NLP Speech Translator</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>LinguaSpeak: NLP Speech Translator</h1>
+        
+        <label for="source-language">Choose Source Language:</label>
+        <select id="source-language">
+            <!-- Populate with supported languages, e.g., 'en' for English, 'hi' for Hindi -->
+            <option value="en">English</option>
+            <option value="hi">Hindi</option>
+            <option value="es">Spanish</option>
+            <!-- Add more language options -->
+        </select>
+        
+        <label for="target-language">Choose Target Language:</label>
+        <select id="target-language">
+            <option value="en">English</option>
+            <option value="hi">Hindi</option>
+            <option value="es">Spanish</option>
+            <!-- Add more language options -->
+        </select>
+        
+        <textarea id="input-text" placeholder="Enter text to translate"></textarea>
+        <button onclick="translateText()">Translate</button>
+        
+        <textarea id="translated-text" readonly placeholder="Translation will appear here"></textarea>
+        <button onclick="playTextToSpeech()">Listen to Translation</button>
+    </div>
+    <script src="/static/js/scripts.js"></script>
+</body>
+</html>
