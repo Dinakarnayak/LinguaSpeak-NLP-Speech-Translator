@@ -123,8 +123,3 @@ Developed by Dinakar Nayak N. For inquiries, please contact me via [dinakarnayak
 [LinkedIn: Dinakar Nayak N](https://www.linkedin.com/in/dinakar-nayak-n-125762232/)
 
 Thank you for using **LinguaSpeak: NLP Speech Translator**! We hope you find it helpful and easy to use.
-```
-
-In this markdown version, I have included a detailed structure with instructions on setting up the project, usage, contributing guidelines, and contact details. Also, I have added placeholders and examples for CORS configuration and environment variables.
-
-Let me know if you need further adjustments!
