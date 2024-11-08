@@ -26,7 +26,8 @@ Welcome to **LinguaSpeak: NLP Speech Translator**! In today's globalized world, 
 ## Technologies Used
 
 ### Frontend
-- **Flask**: A lightweight web framework for building the application.
+- **Flask**: A lightweight web framework for building the application (serving frontend).
+- **React**: Frontend framework (used in conjunction with Chakra UI).
 - **Chakra UI**: A modular and accessible component library for React.
 - **HTML/CSS/JavaScript**: Core web technologies for frontend development.
 
@@ -93,7 +94,17 @@ Welcome to **LinguaSpeak: NLP Speech Translator**! In today's globalized world, 
 You can add environment variables for any configuration settings needed.
 
 ### CORS Configuration
-Make sure to configure CORS settings in `app.py` if required.
+Make sure to configure CORS settings in `app.py` if required. You can add this to handle CORS in FastAPI:
+```python
+from fastapi.middleware.cors import CORSMiddleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # List of allowed origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all methods
+    allow_headers=["*"],  # Allow all headers
+)
+```
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
@@ -112,3 +123,8 @@ Developed by Dinakar Nayak N. For inquiries, please contact me via [dinakarnayak
 [LinkedIn: Dinakar Nayak N](https://www.linkedin.com/in/dinakar-nayak-n-125762232/)
 
 Thank you for using **LinguaSpeak: NLP Speech Translator**! We hope you find it helpful and easy to use.
+```
+
+In this markdown version, I have included a detailed structure with instructions on setting up the project, usage, contributing guidelines, and contact details. Also, I have added placeholders and examples for CORS configuration and environment variables.
+
+Let me know if you need further adjustments!
