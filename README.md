@@ -3,7 +3,7 @@
 
 Welcome to **LinguaSpeak: NLP Speech Translator**! In today's globalized world, effective communication across different languages is essential. This project provides a seamless solution for real-time speech translation and text-to-speech conversion, making language barriers a thing of the past.
 
-![Project Screenshot](path_to_your_screenshot_image) <!-- Replace with your actual screenshot path -->
+![Project Screenshot](Screenshot 2024-12-10 162753.png) <!-- Replace with your actual screenshot path -->
 
 ## Table of Contents
 - [Features](#features)
