@@ -1,0 +1,7 @@
+import os
+
+# Directory path
+audio_dir = os.path.join("static", "audio")
+
+# Create directory if it doesn't exist
+os.makedirs(audio_dir, exist_ok=True)
