@@ -3,8 +3,7 @@
 
 Welcome to **LinguaSpeak: NLP Speech Translator**! In today's globalized world, effective communication across different languages is essential. This project provides a seamless solution for real-time speech translation and text-to-speech conversion, making language barriers a thing of the past.
 
-![Project Screenshot](LinguaSpeak-NLP-Speech-Translator
-/Screenshot 2024-12-10 162753.png) <!-- Replace with your actual screenshot path -->
+![Project Screenshot](Screenshot 2024-12-10 162753.png) <!-- Replace with the actual path or link to your screenshot -->
 
 ## Table of Contents
 - [Features](#features)
@@ -124,3 +123,6 @@ Developed by Dinakar Nayak N. For inquiries, please contact me via [dinakarnayak
 [LinkedIn: Dinakar Nayak N](https://www.linkedin.com/in/dinakar-nayak-n-125762232/)
 
 Thank you for using **LinguaSpeak: NLP Speech Translator**! We hope you find it helpful and easy to use.
+```
+
+This markdown file is ready to be saved as `README.md` in your project directory. Just replace the placeholder image path with the actual path or URL of your screenshot, and you're good to go! Let me know if you need further help. 😊
