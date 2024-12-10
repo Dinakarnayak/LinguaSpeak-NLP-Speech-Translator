@@ -1,17 +1,18 @@
-from gtts import gTTS
 import os
+from gtts import gTTS
 
-SUPPORTED_TTS_LANGUAGES = {
-    'en': 'English', 'hi': 'Hindi', 'es': 'Spanish', 'fr': 'French', 'de': 'German',
-    'zh': 'Chinese', 'ja': 'Japanese', 'ru': 'Russian', 'pt': 'Portuguese', 'ar': 'Arabic',
-    # add more languages supported by gTTS as needed
-}
+def text_to_speech(text, target_language):
+    # Define the audio directory
+    audio_dir = os.path.join("static", "audio")
+    
+    # Ensure the directory exists
+    os.makedirs(audio_dir, exist_ok=True)
 
-def text_to_speech(text, language):
-    # Fallback to English if the target language is not supported by gTTS
-    if language not in SUPPORTED_TTS_LANGUAGES:
-        language = 'en'
-    tts = gTTS(text=text, lang=language)
-    audio_file_path = f"static/audio/{text[:10]}_output.mp3"
+    # Create the audio file path
+    audio_file_path = os.path.join(audio_dir, f"{target_language}_output.mp3")
+
+    # Generate and save the audio file
+    tts = gTTS(text=text, lang=target_language)
     tts.save(audio_file_path)
+
     return audio_file_path
